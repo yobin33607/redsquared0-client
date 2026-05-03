@@ -1,0 +1,2 @@
+/usr/bin/ar qc libEngine.a CMakeFiles/Engine.dir/Window.cpp.o CMakeFiles/Engine.dir/Renderer.cpp.o CMakeFiles/Engine.dir/Camera.cpp.o
+/usr/bin/ranlib libEngine.a

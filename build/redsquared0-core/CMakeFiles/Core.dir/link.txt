@@ -1,0 +1,2 @@
+/usr/bin/ar qc libCore.a CMakeFiles/Core.dir/World.cpp.o CMakeFiles/Core.dir/Player.cpp.o CMakeFiles/Core.dir/Block.cpp.o CMakeFiles/Core.dir/Chunk.cpp.o
+/usr/bin/ranlib libCore.a

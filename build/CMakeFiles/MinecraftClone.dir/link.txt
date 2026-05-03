@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/MinecraftClone.dir/main.cpp.o -o MinecraftClone  redsquared0-engine/libEngine.a redsquared0-core/libCore.a redsquared0-engine/libEngine.a 

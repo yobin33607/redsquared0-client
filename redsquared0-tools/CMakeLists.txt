@@ -1,0 +1,2 @@
+add_executable(WorldGenerator world_generator.cpp)
+target_link_libraries(WorldGenerator Core)
