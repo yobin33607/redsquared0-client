@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /workspaces/redsquared0-client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspaces/redsquared0-client/build
+CMAKE_BINARY_DIR = /workspaces/redsquared0-client/build-gui
 
 # Include any dependencies generated for this target.
 include redsquared0-engine/CMakeFiles/Engine.dir/depend.make
@@ -72,44 +72,44 @@ include redsquared0-engine/CMakeFiles/Engine.dir/flags.make
 redsquared0-engine/CMakeFiles/Engine.dir/Window.cpp.o: redsquared0-engine/CMakeFiles/Engine.dir/flags.make
 redsquared0-engine/CMakeFiles/Engine.dir/Window.cpp.o: /workspaces/redsquared0-client/redsquared0-engine/Window.cpp
 redsquared0-engine/CMakeFiles/Engine.dir/Window.cpp.o: redsquared0-engine/CMakeFiles/Engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/redsquared0-client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object redsquared0-engine/CMakeFiles/Engine.dir/Window.cpp.o"
-	cd /workspaces/redsquared0-client/build/redsquared0-engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT redsquared0-engine/CMakeFiles/Engine.dir/Window.cpp.o -MF CMakeFiles/Engine.dir/Window.cpp.o.d -o CMakeFiles/Engine.dir/Window.cpp.o -c /workspaces/redsquared0-client/redsquared0-engine/Window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/redsquared0-client/build-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object redsquared0-engine/CMakeFiles/Engine.dir/Window.cpp.o"
+	cd /workspaces/redsquared0-client/build-gui/redsquared0-engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT redsquared0-engine/CMakeFiles/Engine.dir/Window.cpp.o -MF CMakeFiles/Engine.dir/Window.cpp.o.d -o CMakeFiles/Engine.dir/Window.cpp.o -c /workspaces/redsquared0-client/redsquared0-engine/Window.cpp
 
 redsquared0-engine/CMakeFiles/Engine.dir/Window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Engine.dir/Window.cpp.i"
-	cd /workspaces/redsquared0-client/build/redsquared0-engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/redsquared0-client/redsquared0-engine/Window.cpp > CMakeFiles/Engine.dir/Window.cpp.i
+	cd /workspaces/redsquared0-client/build-gui/redsquared0-engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/redsquared0-client/redsquared0-engine/Window.cpp > CMakeFiles/Engine.dir/Window.cpp.i
 
 redsquared0-engine/CMakeFiles/Engine.dir/Window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Engine.dir/Window.cpp.s"
-	cd /workspaces/redsquared0-client/build/redsquared0-engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/redsquared0-client/redsquared0-engine/Window.cpp -o CMakeFiles/Engine.dir/Window.cpp.s
+	cd /workspaces/redsquared0-client/build-gui/redsquared0-engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/redsquared0-client/redsquared0-engine/Window.cpp -o CMakeFiles/Engine.dir/Window.cpp.s
 
 redsquared0-engine/CMakeFiles/Engine.dir/Renderer.cpp.o: redsquared0-engine/CMakeFiles/Engine.dir/flags.make
 redsquared0-engine/CMakeFiles/Engine.dir/Renderer.cpp.o: /workspaces/redsquared0-client/redsquared0-engine/Renderer.cpp
 redsquared0-engine/CMakeFiles/Engine.dir/Renderer.cpp.o: redsquared0-engine/CMakeFiles/Engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/redsquared0-client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object redsquared0-engine/CMakeFiles/Engine.dir/Renderer.cpp.o"
-	cd /workspaces/redsquared0-client/build/redsquared0-engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT redsquared0-engine/CMakeFiles/Engine.dir/Renderer.cpp.o -MF CMakeFiles/Engine.dir/Renderer.cpp.o.d -o CMakeFiles/Engine.dir/Renderer.cpp.o -c /workspaces/redsquared0-client/redsquared0-engine/Renderer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/redsquared0-client/build-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object redsquared0-engine/CMakeFiles/Engine.dir/Renderer.cpp.o"
+	cd /workspaces/redsquared0-client/build-gui/redsquared0-engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT redsquared0-engine/CMakeFiles/Engine.dir/Renderer.cpp.o -MF CMakeFiles/Engine.dir/Renderer.cpp.o.d -o CMakeFiles/Engine.dir/Renderer.cpp.o -c /workspaces/redsquared0-client/redsquared0-engine/Renderer.cpp
 
 redsquared0-engine/CMakeFiles/Engine.dir/Renderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Engine.dir/Renderer.cpp.i"
-	cd /workspaces/redsquared0-client/build/redsquared0-engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/redsquared0-client/redsquared0-engine/Renderer.cpp > CMakeFiles/Engine.dir/Renderer.cpp.i
+	cd /workspaces/redsquared0-client/build-gui/redsquared0-engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/redsquared0-client/redsquared0-engine/Renderer.cpp > CMakeFiles/Engine.dir/Renderer.cpp.i
 
 redsquared0-engine/CMakeFiles/Engine.dir/Renderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Engine.dir/Renderer.cpp.s"
-	cd /workspaces/redsquared0-client/build/redsquared0-engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/redsquared0-client/redsquared0-engine/Renderer.cpp -o CMakeFiles/Engine.dir/Renderer.cpp.s
+	cd /workspaces/redsquared0-client/build-gui/redsquared0-engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/redsquared0-client/redsquared0-engine/Renderer.cpp -o CMakeFiles/Engine.dir/Renderer.cpp.s
 
 redsquared0-engine/CMakeFiles/Engine.dir/Camera.cpp.o: redsquared0-engine/CMakeFiles/Engine.dir/flags.make
 redsquared0-engine/CMakeFiles/Engine.dir/Camera.cpp.o: /workspaces/redsquared0-client/redsquared0-engine/Camera.cpp
 redsquared0-engine/CMakeFiles/Engine.dir/Camera.cpp.o: redsquared0-engine/CMakeFiles/Engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/redsquared0-client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object redsquared0-engine/CMakeFiles/Engine.dir/Camera.cpp.o"
-	cd /workspaces/redsquared0-client/build/redsquared0-engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT redsquared0-engine/CMakeFiles/Engine.dir/Camera.cpp.o -MF CMakeFiles/Engine.dir/Camera.cpp.o.d -o CMakeFiles/Engine.dir/Camera.cpp.o -c /workspaces/redsquared0-client/redsquared0-engine/Camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/redsquared0-client/build-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object redsquared0-engine/CMakeFiles/Engine.dir/Camera.cpp.o"
+	cd /workspaces/redsquared0-client/build-gui/redsquared0-engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT redsquared0-engine/CMakeFiles/Engine.dir/Camera.cpp.o -MF CMakeFiles/Engine.dir/Camera.cpp.o.d -o CMakeFiles/Engine.dir/Camera.cpp.o -c /workspaces/redsquared0-client/redsquared0-engine/Camera.cpp
 
 redsquared0-engine/CMakeFiles/Engine.dir/Camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Engine.dir/Camera.cpp.i"
-	cd /workspaces/redsquared0-client/build/redsquared0-engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/redsquared0-client/redsquared0-engine/Camera.cpp > CMakeFiles/Engine.dir/Camera.cpp.i
+	cd /workspaces/redsquared0-client/build-gui/redsquared0-engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/redsquared0-client/redsquared0-engine/Camera.cpp > CMakeFiles/Engine.dir/Camera.cpp.i
 
 redsquared0-engine/CMakeFiles/Engine.dir/Camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Engine.dir/Camera.cpp.s"
-	cd /workspaces/redsquared0-client/build/redsquared0-engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/redsquared0-client/redsquared0-engine/Camera.cpp -o CMakeFiles/Engine.dir/Camera.cpp.s
+	cd /workspaces/redsquared0-client/build-gui/redsquared0-engine && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/redsquared0-client/redsquared0-engine/Camera.cpp -o CMakeFiles/Engine.dir/Camera.cpp.s
 
 # Object files for target Engine
 Engine_OBJECTS = \
@@ -125,19 +125,19 @@ redsquared0-engine/libEngine.a: redsquared0-engine/CMakeFiles/Engine.dir/Rendere
 redsquared0-engine/libEngine.a: redsquared0-engine/CMakeFiles/Engine.dir/Camera.cpp.o
 redsquared0-engine/libEngine.a: redsquared0-engine/CMakeFiles/Engine.dir/build.make
 redsquared0-engine/libEngine.a: redsquared0-engine/CMakeFiles/Engine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/workspaces/redsquared0-client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libEngine.a"
-	cd /workspaces/redsquared0-client/build/redsquared0-engine && $(CMAKE_COMMAND) -P CMakeFiles/Engine.dir/cmake_clean_target.cmake
-	cd /workspaces/redsquared0-client/build/redsquared0-engine && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Engine.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/workspaces/redsquared0-client/build-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libEngine.a"
+	cd /workspaces/redsquared0-client/build-gui/redsquared0-engine && $(CMAKE_COMMAND) -P CMakeFiles/Engine.dir/cmake_clean_target.cmake
+	cd /workspaces/redsquared0-client/build-gui/redsquared0-engine && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Engine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 redsquared0-engine/CMakeFiles/Engine.dir/build: redsquared0-engine/libEngine.a
 .PHONY : redsquared0-engine/CMakeFiles/Engine.dir/build
 
 redsquared0-engine/CMakeFiles/Engine.dir/clean:
-	cd /workspaces/redsquared0-client/build/redsquared0-engine && $(CMAKE_COMMAND) -P CMakeFiles/Engine.dir/cmake_clean.cmake
+	cd /workspaces/redsquared0-client/build-gui/redsquared0-engine && $(CMAKE_COMMAND) -P CMakeFiles/Engine.dir/cmake_clean.cmake
 .PHONY : redsquared0-engine/CMakeFiles/Engine.dir/clean
 
 redsquared0-engine/CMakeFiles/Engine.dir/depend:
-	cd /workspaces/redsquared0-client/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspaces/redsquared0-client /workspaces/redsquared0-client/redsquared0-engine /workspaces/redsquared0-client/build /workspaces/redsquared0-client/build/redsquared0-engine /workspaces/redsquared0-client/build/redsquared0-engine/CMakeFiles/Engine.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /workspaces/redsquared0-client/build-gui && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspaces/redsquared0-client /workspaces/redsquared0-client/redsquared0-engine /workspaces/redsquared0-client/build-gui /workspaces/redsquared0-client/build-gui/redsquared0-engine /workspaces/redsquared0-client/build-gui/redsquared0-engine/CMakeFiles/Engine.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : redsquared0-engine/CMakeFiles/Engine.dir/depend
 

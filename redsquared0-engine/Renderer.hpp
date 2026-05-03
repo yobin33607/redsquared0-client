@@ -1,16 +1,23 @@
 #pragma once
-#include <vector>
-#include <string>
+#include <glm/glm.hpp>
+
+struct SDL_Window;
+struct SDL_Renderer;
+class Camera;
 
 class Renderer {
 public:
-    Renderer();
+    Renderer(SDL_Window* window, int width, int height);
     ~Renderer();
+
     void clear();
-    void drawCube(int x, int y, int z, char type);
-    void display();
+    void drawCube(float x, float y, float z, const glm::vec3& color, const Camera& camera);
+    void display(float deltaTime);
 
 private:
-    std::vector<std::string> screen;
+    SDL_Renderer* renderer;
     int width, height;
+    int fps;
+    float fpsTimer;
+    int frameCount;
 };

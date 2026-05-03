@@ -44,9 +44,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/workspaces/redsquared0-client/build/redsquared0-engine/cmake_install.cmake")
-  include("/workspaces/redsquared0-client/build/redsquared0-core/cmake_install.cmake")
-  include("/workspaces/redsquared0-client/build/redsquared0-tools/cmake_install.cmake")
+  include("/workspaces/redsquared0-client/build-gui/redsquared0-engine/cmake_install.cmake")
+  include("/workspaces/redsquared0-client/build-gui/redsquared0-core/cmake_install.cmake")
+  include("/workspaces/redsquared0-client/build-gui/redsquared0-tools/cmake_install.cmake")
 
 endif()
 
@@ -58,5 +58,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/workspaces/redsquared0-client/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/workspaces/redsquared0-client/build-gui/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

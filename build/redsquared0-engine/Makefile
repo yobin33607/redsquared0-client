@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /workspaces/redsquared0-client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspaces/redsquared0-client/build
+CMAKE_BINARY_DIR = /workspaces/redsquared0-client/build-gui
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /workspaces/redsquared0-client/build && $(CMAKE_COMMAND) -E cmake_progress_start /workspaces/redsquared0-client/build/CMakeFiles /workspaces/redsquared0-client/build/redsquared0-engine//CMakeFiles/progress.marks
-	cd /workspaces/redsquared0-client/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 redsquared0-engine/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/redsquared0-client/build/CMakeFiles 0
+	cd /workspaces/redsquared0-client/build-gui && $(CMAKE_COMMAND) -E cmake_progress_start /workspaces/redsquared0-client/build-gui/CMakeFiles /workspaces/redsquared0-client/build-gui/redsquared0-engine//CMakeFiles/progress.marks
+	cd /workspaces/redsquared0-client/build-gui && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 redsquared0-engine/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/redsquared0-client/build-gui/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /workspaces/redsquared0-client/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 redsquared0-engine/clean
+	cd /workspaces/redsquared0-client/build-gui && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 redsquared0-engine/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /workspaces/redsquared0-client/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 redsquared0-engine/preinstall
+	cd /workspaces/redsquared0-client/build-gui && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 redsquared0-engine/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /workspaces/redsquared0-client/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 redsquared0-engine/preinstall
+	cd /workspaces/redsquared0-client/build-gui && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 redsquared0-engine/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /workspaces/redsquared0-client/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /workspaces/redsquared0-client/build-gui && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 redsquared0-engine/CMakeFiles/Engine.dir/rule:
-	cd /workspaces/redsquared0-client/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 redsquared0-engine/CMakeFiles/Engine.dir/rule
+	cd /workspaces/redsquared0-client/build-gui && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 redsquared0-engine/CMakeFiles/Engine.dir/rule
 .PHONY : redsquared0-engine/CMakeFiles/Engine.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ Engine: redsquared0-engine/CMakeFiles/Engine.dir/rule
 
 # fast build rule for target.
 Engine/fast:
-	cd /workspaces/redsquared0-client/build && $(MAKE) $(MAKESILENT) -f redsquared0-engine/CMakeFiles/Engine.dir/build.make redsquared0-engine/CMakeFiles/Engine.dir/build
+	cd /workspaces/redsquared0-client/build-gui && $(MAKE) $(MAKESILENT) -f redsquared0-engine/CMakeFiles/Engine.dir/build.make redsquared0-engine/CMakeFiles/Engine.dir/build
 .PHONY : Engine/fast
 
 Camera.o: Camera.cpp.o
@@ -135,7 +135,7 @@ Camera.o: Camera.cpp.o
 
 # target to build an object file
 Camera.cpp.o:
-	cd /workspaces/redsquared0-client/build && $(MAKE) $(MAKESILENT) -f redsquared0-engine/CMakeFiles/Engine.dir/build.make redsquared0-engine/CMakeFiles/Engine.dir/Camera.cpp.o
+	cd /workspaces/redsquared0-client/build-gui && $(MAKE) $(MAKESILENT) -f redsquared0-engine/CMakeFiles/Engine.dir/build.make redsquared0-engine/CMakeFiles/Engine.dir/Camera.cpp.o
 .PHONY : Camera.cpp.o
 
 Camera.i: Camera.cpp.i
@@ -143,7 +143,7 @@ Camera.i: Camera.cpp.i
 
 # target to preprocess a source file
 Camera.cpp.i:
-	cd /workspaces/redsquared0-client/build && $(MAKE) $(MAKESILENT) -f redsquared0-engine/CMakeFiles/Engine.dir/build.make redsquared0-engine/CMakeFiles/Engine.dir/Camera.cpp.i
+	cd /workspaces/redsquared0-client/build-gui && $(MAKE) $(MAKESILENT) -f redsquared0-engine/CMakeFiles/Engine.dir/build.make redsquared0-engine/CMakeFiles/Engine.dir/Camera.cpp.i
 .PHONY : Camera.cpp.i
 
 Camera.s: Camera.cpp.s
@@ -151,7 +151,7 @@ Camera.s: Camera.cpp.s
 
 # target to generate assembly for a file
 Camera.cpp.s:
-	cd /workspaces/redsquared0-client/build && $(MAKE) $(MAKESILENT) -f redsquared0-engine/CMakeFiles/Engine.dir/build.make redsquared0-engine/CMakeFiles/Engine.dir/Camera.cpp.s
+	cd /workspaces/redsquared0-client/build-gui && $(MAKE) $(MAKESILENT) -f redsquared0-engine/CMakeFiles/Engine.dir/build.make redsquared0-engine/CMakeFiles/Engine.dir/Camera.cpp.s
 .PHONY : Camera.cpp.s
 
 Renderer.o: Renderer.cpp.o
@@ -159,7 +159,7 @@ Renderer.o: Renderer.cpp.o
 
 # target to build an object file
 Renderer.cpp.o:
-	cd /workspaces/redsquared0-client/build && $(MAKE) $(MAKESILENT) -f redsquared0-engine/CMakeFiles/Engine.dir/build.make redsquared0-engine/CMakeFiles/Engine.dir/Renderer.cpp.o
+	cd /workspaces/redsquared0-client/build-gui && $(MAKE) $(MAKESILENT) -f redsquared0-engine/CMakeFiles/Engine.dir/build.make redsquared0-engine/CMakeFiles/Engine.dir/Renderer.cpp.o
 .PHONY : Renderer.cpp.o
 
 Renderer.i: Renderer.cpp.i
@@ -167,7 +167,7 @@ Renderer.i: Renderer.cpp.i
 
 # target to preprocess a source file
 Renderer.cpp.i:
-	cd /workspaces/redsquared0-client/build && $(MAKE) $(MAKESILENT) -f redsquared0-engine/CMakeFiles/Engine.dir/build.make redsquared0-engine/CMakeFiles/Engine.dir/Renderer.cpp.i
+	cd /workspaces/redsquared0-client/build-gui && $(MAKE) $(MAKESILENT) -f redsquared0-engine/CMakeFiles/Engine.dir/build.make redsquared0-engine/CMakeFiles/Engine.dir/Renderer.cpp.i
 .PHONY : Renderer.cpp.i
 
 Renderer.s: Renderer.cpp.s
@@ -175,7 +175,7 @@ Renderer.s: Renderer.cpp.s
 
 # target to generate assembly for a file
 Renderer.cpp.s:
-	cd /workspaces/redsquared0-client/build && $(MAKE) $(MAKESILENT) -f redsquared0-engine/CMakeFiles/Engine.dir/build.make redsquared0-engine/CMakeFiles/Engine.dir/Renderer.cpp.s
+	cd /workspaces/redsquared0-client/build-gui && $(MAKE) $(MAKESILENT) -f redsquared0-engine/CMakeFiles/Engine.dir/build.make redsquared0-engine/CMakeFiles/Engine.dir/Renderer.cpp.s
 .PHONY : Renderer.cpp.s
 
 Window.o: Window.cpp.o
@@ -183,7 +183,7 @@ Window.o: Window.cpp.o
 
 # target to build an object file
 Window.cpp.o:
-	cd /workspaces/redsquared0-client/build && $(MAKE) $(MAKESILENT) -f redsquared0-engine/CMakeFiles/Engine.dir/build.make redsquared0-engine/CMakeFiles/Engine.dir/Window.cpp.o
+	cd /workspaces/redsquared0-client/build-gui && $(MAKE) $(MAKESILENT) -f redsquared0-engine/CMakeFiles/Engine.dir/build.make redsquared0-engine/CMakeFiles/Engine.dir/Window.cpp.o
 .PHONY : Window.cpp.o
 
 Window.i: Window.cpp.i
@@ -191,7 +191,7 @@ Window.i: Window.cpp.i
 
 # target to preprocess a source file
 Window.cpp.i:
-	cd /workspaces/redsquared0-client/build && $(MAKE) $(MAKESILENT) -f redsquared0-engine/CMakeFiles/Engine.dir/build.make redsquared0-engine/CMakeFiles/Engine.dir/Window.cpp.i
+	cd /workspaces/redsquared0-client/build-gui && $(MAKE) $(MAKESILENT) -f redsquared0-engine/CMakeFiles/Engine.dir/build.make redsquared0-engine/CMakeFiles/Engine.dir/Window.cpp.i
 .PHONY : Window.cpp.i
 
 Window.s: Window.cpp.s
@@ -199,7 +199,7 @@ Window.s: Window.cpp.s
 
 # target to generate assembly for a file
 Window.cpp.s:
-	cd /workspaces/redsquared0-client/build && $(MAKE) $(MAKESILENT) -f redsquared0-engine/CMakeFiles/Engine.dir/build.make redsquared0-engine/CMakeFiles/Engine.dir/Window.cpp.s
+	cd /workspaces/redsquared0-client/build-gui && $(MAKE) $(MAKESILENT) -f redsquared0-engine/CMakeFiles/Engine.dir/build.make redsquared0-engine/CMakeFiles/Engine.dir/Window.cpp.s
 .PHONY : Window.cpp.s
 
 # Help Target
@@ -231,6 +231,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /workspaces/redsquared0-client/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /workspaces/redsquared0-client/build-gui && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

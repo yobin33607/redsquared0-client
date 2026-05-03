@@ -1,13 +1,20 @@
 #pragma once
+#include <glm/glm.hpp>
 
 class Camera {
 public:
     Camera();
-    void setPosition(int x, int y, int z);
-    int getX() const;
-    int getY() const;
-    int getZ() const;
+    void setPosition(const glm::vec3& position);
+    glm::vec3 getPosition() const;
+
+    glm::vec3 getForward() const;
+    glm::vec3 getRight() const;
+    glm::vec3 getUp() const;
+
+    void rotate(float yawDelta, float pitchDelta);
 
 private:
-    int x, y, z;
+    glm::vec3 position;
+    float yaw;
+    float pitch;
 };

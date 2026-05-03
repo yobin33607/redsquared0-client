@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /workspaces/redsquared0-client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspaces/redsquared0-client/build
+CMAKE_BINARY_DIR = /workspaces/redsquared0-client/build-gui
 
 # Include any dependencies generated for this target.
 include redsquared0-core/CMakeFiles/Core.dir/depend.make
@@ -72,58 +72,58 @@ include redsquared0-core/CMakeFiles/Core.dir/flags.make
 redsquared0-core/CMakeFiles/Core.dir/World.cpp.o: redsquared0-core/CMakeFiles/Core.dir/flags.make
 redsquared0-core/CMakeFiles/Core.dir/World.cpp.o: /workspaces/redsquared0-client/redsquared0-core/World.cpp
 redsquared0-core/CMakeFiles/Core.dir/World.cpp.o: redsquared0-core/CMakeFiles/Core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/redsquared0-client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object redsquared0-core/CMakeFiles/Core.dir/World.cpp.o"
-	cd /workspaces/redsquared0-client/build/redsquared0-core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT redsquared0-core/CMakeFiles/Core.dir/World.cpp.o -MF CMakeFiles/Core.dir/World.cpp.o.d -o CMakeFiles/Core.dir/World.cpp.o -c /workspaces/redsquared0-client/redsquared0-core/World.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/redsquared0-client/build-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object redsquared0-core/CMakeFiles/Core.dir/World.cpp.o"
+	cd /workspaces/redsquared0-client/build-gui/redsquared0-core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT redsquared0-core/CMakeFiles/Core.dir/World.cpp.o -MF CMakeFiles/Core.dir/World.cpp.o.d -o CMakeFiles/Core.dir/World.cpp.o -c /workspaces/redsquared0-client/redsquared0-core/World.cpp
 
 redsquared0-core/CMakeFiles/Core.dir/World.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Core.dir/World.cpp.i"
-	cd /workspaces/redsquared0-client/build/redsquared0-core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/redsquared0-client/redsquared0-core/World.cpp > CMakeFiles/Core.dir/World.cpp.i
+	cd /workspaces/redsquared0-client/build-gui/redsquared0-core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/redsquared0-client/redsquared0-core/World.cpp > CMakeFiles/Core.dir/World.cpp.i
 
 redsquared0-core/CMakeFiles/Core.dir/World.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Core.dir/World.cpp.s"
-	cd /workspaces/redsquared0-client/build/redsquared0-core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/redsquared0-client/redsquared0-core/World.cpp -o CMakeFiles/Core.dir/World.cpp.s
+	cd /workspaces/redsquared0-client/build-gui/redsquared0-core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/redsquared0-client/redsquared0-core/World.cpp -o CMakeFiles/Core.dir/World.cpp.s
 
 redsquared0-core/CMakeFiles/Core.dir/Player.cpp.o: redsquared0-core/CMakeFiles/Core.dir/flags.make
 redsquared0-core/CMakeFiles/Core.dir/Player.cpp.o: /workspaces/redsquared0-client/redsquared0-core/Player.cpp
 redsquared0-core/CMakeFiles/Core.dir/Player.cpp.o: redsquared0-core/CMakeFiles/Core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/redsquared0-client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object redsquared0-core/CMakeFiles/Core.dir/Player.cpp.o"
-	cd /workspaces/redsquared0-client/build/redsquared0-core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT redsquared0-core/CMakeFiles/Core.dir/Player.cpp.o -MF CMakeFiles/Core.dir/Player.cpp.o.d -o CMakeFiles/Core.dir/Player.cpp.o -c /workspaces/redsquared0-client/redsquared0-core/Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/redsquared0-client/build-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object redsquared0-core/CMakeFiles/Core.dir/Player.cpp.o"
+	cd /workspaces/redsquared0-client/build-gui/redsquared0-core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT redsquared0-core/CMakeFiles/Core.dir/Player.cpp.o -MF CMakeFiles/Core.dir/Player.cpp.o.d -o CMakeFiles/Core.dir/Player.cpp.o -c /workspaces/redsquared0-client/redsquared0-core/Player.cpp
 
 redsquared0-core/CMakeFiles/Core.dir/Player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Core.dir/Player.cpp.i"
-	cd /workspaces/redsquared0-client/build/redsquared0-core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/redsquared0-client/redsquared0-core/Player.cpp > CMakeFiles/Core.dir/Player.cpp.i
+	cd /workspaces/redsquared0-client/build-gui/redsquared0-core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/redsquared0-client/redsquared0-core/Player.cpp > CMakeFiles/Core.dir/Player.cpp.i
 
 redsquared0-core/CMakeFiles/Core.dir/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Player.cpp.s"
-	cd /workspaces/redsquared0-client/build/redsquared0-core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/redsquared0-client/redsquared0-core/Player.cpp -o CMakeFiles/Core.dir/Player.cpp.s
+	cd /workspaces/redsquared0-client/build-gui/redsquared0-core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/redsquared0-client/redsquared0-core/Player.cpp -o CMakeFiles/Core.dir/Player.cpp.s
 
 redsquared0-core/CMakeFiles/Core.dir/Block.cpp.o: redsquared0-core/CMakeFiles/Core.dir/flags.make
 redsquared0-core/CMakeFiles/Core.dir/Block.cpp.o: /workspaces/redsquared0-client/redsquared0-core/Block.cpp
 redsquared0-core/CMakeFiles/Core.dir/Block.cpp.o: redsquared0-core/CMakeFiles/Core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/redsquared0-client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object redsquared0-core/CMakeFiles/Core.dir/Block.cpp.o"
-	cd /workspaces/redsquared0-client/build/redsquared0-core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT redsquared0-core/CMakeFiles/Core.dir/Block.cpp.o -MF CMakeFiles/Core.dir/Block.cpp.o.d -o CMakeFiles/Core.dir/Block.cpp.o -c /workspaces/redsquared0-client/redsquared0-core/Block.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/redsquared0-client/build-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object redsquared0-core/CMakeFiles/Core.dir/Block.cpp.o"
+	cd /workspaces/redsquared0-client/build-gui/redsquared0-core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT redsquared0-core/CMakeFiles/Core.dir/Block.cpp.o -MF CMakeFiles/Core.dir/Block.cpp.o.d -o CMakeFiles/Core.dir/Block.cpp.o -c /workspaces/redsquared0-client/redsquared0-core/Block.cpp
 
 redsquared0-core/CMakeFiles/Core.dir/Block.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Core.dir/Block.cpp.i"
-	cd /workspaces/redsquared0-client/build/redsquared0-core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/redsquared0-client/redsquared0-core/Block.cpp > CMakeFiles/Core.dir/Block.cpp.i
+	cd /workspaces/redsquared0-client/build-gui/redsquared0-core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/redsquared0-client/redsquared0-core/Block.cpp > CMakeFiles/Core.dir/Block.cpp.i
 
 redsquared0-core/CMakeFiles/Core.dir/Block.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Block.cpp.s"
-	cd /workspaces/redsquared0-client/build/redsquared0-core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/redsquared0-client/redsquared0-core/Block.cpp -o CMakeFiles/Core.dir/Block.cpp.s
+	cd /workspaces/redsquared0-client/build-gui/redsquared0-core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/redsquared0-client/redsquared0-core/Block.cpp -o CMakeFiles/Core.dir/Block.cpp.s
 
 redsquared0-core/CMakeFiles/Core.dir/Chunk.cpp.o: redsquared0-core/CMakeFiles/Core.dir/flags.make
 redsquared0-core/CMakeFiles/Core.dir/Chunk.cpp.o: /workspaces/redsquared0-client/redsquared0-core/Chunk.cpp
 redsquared0-core/CMakeFiles/Core.dir/Chunk.cpp.o: redsquared0-core/CMakeFiles/Core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/redsquared0-client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object redsquared0-core/CMakeFiles/Core.dir/Chunk.cpp.o"
-	cd /workspaces/redsquared0-client/build/redsquared0-core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT redsquared0-core/CMakeFiles/Core.dir/Chunk.cpp.o -MF CMakeFiles/Core.dir/Chunk.cpp.o.d -o CMakeFiles/Core.dir/Chunk.cpp.o -c /workspaces/redsquared0-client/redsquared0-core/Chunk.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/workspaces/redsquared0-client/build-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object redsquared0-core/CMakeFiles/Core.dir/Chunk.cpp.o"
+	cd /workspaces/redsquared0-client/build-gui/redsquared0-core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT redsquared0-core/CMakeFiles/Core.dir/Chunk.cpp.o -MF CMakeFiles/Core.dir/Chunk.cpp.o.d -o CMakeFiles/Core.dir/Chunk.cpp.o -c /workspaces/redsquared0-client/redsquared0-core/Chunk.cpp
 
 redsquared0-core/CMakeFiles/Core.dir/Chunk.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Core.dir/Chunk.cpp.i"
-	cd /workspaces/redsquared0-client/build/redsquared0-core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/redsquared0-client/redsquared0-core/Chunk.cpp > CMakeFiles/Core.dir/Chunk.cpp.i
+	cd /workspaces/redsquared0-client/build-gui/redsquared0-core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/redsquared0-client/redsquared0-core/Chunk.cpp > CMakeFiles/Core.dir/Chunk.cpp.i
 
 redsquared0-core/CMakeFiles/Core.dir/Chunk.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Chunk.cpp.s"
-	cd /workspaces/redsquared0-client/build/redsquared0-core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/redsquared0-client/redsquared0-core/Chunk.cpp -o CMakeFiles/Core.dir/Chunk.cpp.s
+	cd /workspaces/redsquared0-client/build-gui/redsquared0-core && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/redsquared0-client/redsquared0-core/Chunk.cpp -o CMakeFiles/Core.dir/Chunk.cpp.s
 
 # Object files for target Core
 Core_OBJECTS = \
@@ -141,19 +141,19 @@ redsquared0-core/libCore.a: redsquared0-core/CMakeFiles/Core.dir/Block.cpp.o
 redsquared0-core/libCore.a: redsquared0-core/CMakeFiles/Core.dir/Chunk.cpp.o
 redsquared0-core/libCore.a: redsquared0-core/CMakeFiles/Core.dir/build.make
 redsquared0-core/libCore.a: redsquared0-core/CMakeFiles/Core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/workspaces/redsquared0-client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libCore.a"
-	cd /workspaces/redsquared0-client/build/redsquared0-core && $(CMAKE_COMMAND) -P CMakeFiles/Core.dir/cmake_clean_target.cmake
-	cd /workspaces/redsquared0-client/build/redsquared0-core && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Core.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/workspaces/redsquared0-client/build-gui/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libCore.a"
+	cd /workspaces/redsquared0-client/build-gui/redsquared0-core && $(CMAKE_COMMAND) -P CMakeFiles/Core.dir/cmake_clean_target.cmake
+	cd /workspaces/redsquared0-client/build-gui/redsquared0-core && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Core.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 redsquared0-core/CMakeFiles/Core.dir/build: redsquared0-core/libCore.a
 .PHONY : redsquared0-core/CMakeFiles/Core.dir/build
 
 redsquared0-core/CMakeFiles/Core.dir/clean:
-	cd /workspaces/redsquared0-client/build/redsquared0-core && $(CMAKE_COMMAND) -P CMakeFiles/Core.dir/cmake_clean.cmake
+	cd /workspaces/redsquared0-client/build-gui/redsquared0-core && $(CMAKE_COMMAND) -P CMakeFiles/Core.dir/cmake_clean.cmake
 .PHONY : redsquared0-core/CMakeFiles/Core.dir/clean
 
 redsquared0-core/CMakeFiles/Core.dir/depend:
-	cd /workspaces/redsquared0-client/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspaces/redsquared0-client /workspaces/redsquared0-client/redsquared0-core /workspaces/redsquared0-client/build /workspaces/redsquared0-client/build/redsquared0-core /workspaces/redsquared0-client/build/redsquared0-core/CMakeFiles/Core.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /workspaces/redsquared0-client/build-gui && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workspaces/redsquared0-client /workspaces/redsquared0-client/redsquared0-core /workspaces/redsquared0-client/build-gui /workspaces/redsquared0-client/build-gui/redsquared0-core /workspaces/redsquared0-client/build-gui/redsquared0-core/CMakeFiles/Core.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : redsquared0-core/CMakeFiles/Core.dir/depend
 

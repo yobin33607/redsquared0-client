@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/RedSquared.dir/main.cpp.o -o RedSquared  redsquared0-engine/libEngine.a redsquared0-core/libCore.a redsquared0-engine/libEngine.a /usr/lib/x86_64-linux-gnu/libSDL2.so 

@@ -1,6 +1,5 @@
 #pragma once
 #include "Chunk.hpp"
-#include <vector>
 #include <unordered_map>
 
 struct hash_pair {
@@ -8,14 +7,18 @@ struct hash_pair {
     size_t operator()(const std::pair<T1, T2>& p) const {
         auto hash1 = std::hash<T1>{}(p.first);
         auto hash2 = std::hash<T2>{}(p.second);
-        return hash1 ^ hash2;  // or some other combination
+        return hash1 ^ (hash2 << 1);
     }
 };
+
+class Renderer;
+class Camera;
 
 class World {
 public:
     World();
-    void render();
+    ~World();
+    void render(Renderer& renderer, const Camera& camera);
     Block& getBlock(int x, int y, int z);
 
 private:

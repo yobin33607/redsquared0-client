@@ -1,7 +1,9 @@
 #include "World.hpp"
+#include "Chunk.hpp"
+#include "../redsquared0-engine/Renderer.hpp"
+#include "../redsquared0-engine/Camera.hpp"
 
 World::World() {
-    // Generate a few chunks
     for (int x = -2; x <= 2; ++x) {
         for (int z = -2; z <= 2; ++z) {
             chunks[{x, z}] = new Chunk(x, z);
@@ -9,9 +11,15 @@ World::World() {
     }
 }
 
-void World::render() {
+World::~World() {
     for (auto& pair : chunks) {
-        pair.second->render();
+        delete pair.second;
+    }
+}
+
+void World::render(Renderer& renderer, const Camera& camera) {
+    for (auto& pair : chunks) {
+        pair.second->render(renderer, camera);
     }
 }
 

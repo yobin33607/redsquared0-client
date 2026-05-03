@@ -247,4 +247,6 @@ redsquared0-core/CMakeFiles/Core.dir/World.cpp.o: \
  /usr/include/c++/13/ext/aligned_buffer.h \
  /usr/include/c++/13/bits/enable_special_members.h \
  /usr/include/c++/13/bits/node_handle.h \
- /usr/include/c++/13/bits/erase_if.h
+ /usr/include/c++/13/bits/erase_if.h \
+ /workspaces/redsquared0-client/redsquared0-core/../redsquared0-engine/Renderer.hpp \
+ /workspaces/redsquared0-client/redsquared0-core/../redsquared0-engine/Camera.hpp

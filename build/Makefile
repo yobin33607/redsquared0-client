@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /workspaces/redsquared0-client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspaces/redsquared0-client/build
+CMAKE_BINARY_DIR = /workspaces/redsquared0-client/build-gui
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/redsquared0-client/build/CMakeFiles /workspaces/redsquared0-client/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/redsquared0-client/build-gui/CMakeFiles /workspaces/redsquared0-client/build-gui//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/redsquared0-client/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/redsquared0-client/build-gui/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,17 +117,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named MinecraftClone
+# Target rules for targets named RedSquared
 
 # Build rule for target.
-MinecraftClone: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MinecraftClone
-.PHONY : MinecraftClone
+RedSquared: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RedSquared
+.PHONY : RedSquared
 
 # fast build rule for target.
-MinecraftClone/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MinecraftClone.dir/build.make CMakeFiles/MinecraftClone.dir/build
-.PHONY : MinecraftClone/fast
+RedSquared/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RedSquared.dir/build.make CMakeFiles/RedSquared.dir/build
+.PHONY : RedSquared/fast
 
 #=============================================================================
 # Target rules for targets named Engine
@@ -173,7 +173,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MinecraftClone.dir/build.make CMakeFiles/MinecraftClone.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RedSquared.dir/build.make CMakeFiles/RedSquared.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -181,7 +181,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MinecraftClone.dir/build.make CMakeFiles/MinecraftClone.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RedSquared.dir/build.make CMakeFiles/RedSquared.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -189,7 +189,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/MinecraftClone.dir/build.make CMakeFiles/MinecraftClone.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RedSquared.dir/build.make CMakeFiles/RedSquared.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -202,7 +202,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Core"
 	@echo "... Engine"
-	@echo "... MinecraftClone"
+	@echo "... RedSquared"
 	@echo "... WorldGenerator"
 	@echo "... main.o"
 	@echo "... main.i"

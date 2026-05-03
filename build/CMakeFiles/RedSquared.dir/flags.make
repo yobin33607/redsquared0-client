@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DSDL_MAIN_HANDLED
 
-CXX_INCLUDES = -I/workspaces/redsquared0-client/redsquared0-core -I/workspaces/redsquared0-client/redsquared0-engine -isystem /usr/include/SDL2
+CXX_INCLUDES = -I/workspaces/redsquared0-client/redsquared0-engine -I/workspaces/redsquared0-client/redsquared0-core -isystem /usr/include/SDL2
 
 CXX_FLAGS = -std=gnu++17
 

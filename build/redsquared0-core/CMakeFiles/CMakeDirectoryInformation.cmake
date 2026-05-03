@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/workspaces/redsquared0-client")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/workspaces/redsquared0-client/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/workspaces/redsquared0-client/build-gui")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

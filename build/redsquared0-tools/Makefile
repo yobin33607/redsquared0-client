@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /workspaces/redsquared0-client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspaces/redsquared0-client/build
+CMAKE_BINARY_DIR = /workspaces/redsquared0-client/build-gui
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /workspaces/redsquared0-client/build && $(CMAKE_COMMAND) -E cmake_progress_start /workspaces/redsquared0-client/build/CMakeFiles /workspaces/redsquared0-client/build/redsquared0-tools//CMakeFiles/progress.marks
-	cd /workspaces/redsquared0-client/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 redsquared0-tools/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/redsquared0-client/build/CMakeFiles 0
+	cd /workspaces/redsquared0-client/build-gui && $(CMAKE_COMMAND) -E cmake_progress_start /workspaces/redsquared0-client/build-gui/CMakeFiles /workspaces/redsquared0-client/build-gui/redsquared0-tools//CMakeFiles/progress.marks
+	cd /workspaces/redsquared0-client/build-gui && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 redsquared0-tools/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/redsquared0-client/build-gui/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /workspaces/redsquared0-client/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 redsquared0-tools/clean
+	cd /workspaces/redsquared0-client/build-gui && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 redsquared0-tools/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /workspaces/redsquared0-client/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 redsquared0-tools/preinstall
+	cd /workspaces/redsquared0-client/build-gui && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 redsquared0-tools/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /workspaces/redsquared0-client/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 redsquared0-tools/preinstall
+	cd /workspaces/redsquared0-client/build-gui && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 redsquared0-tools/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /workspaces/redsquared0-client/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /workspaces/redsquared0-client/build-gui && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 redsquared0-tools/CMakeFiles/WorldGenerator.dir/rule:
-	cd /workspaces/redsquared0-client/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 redsquared0-tools/CMakeFiles/WorldGenerator.dir/rule
+	cd /workspaces/redsquared0-client/build-gui && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 redsquared0-tools/CMakeFiles/WorldGenerator.dir/rule
 .PHONY : redsquared0-tools/CMakeFiles/WorldGenerator.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ WorldGenerator: redsquared0-tools/CMakeFiles/WorldGenerator.dir/rule
 
 # fast build rule for target.
 WorldGenerator/fast:
-	cd /workspaces/redsquared0-client/build && $(MAKE) $(MAKESILENT) -f redsquared0-tools/CMakeFiles/WorldGenerator.dir/build.make redsquared0-tools/CMakeFiles/WorldGenerator.dir/build
+	cd /workspaces/redsquared0-client/build-gui && $(MAKE) $(MAKESILENT) -f redsquared0-tools/CMakeFiles/WorldGenerator.dir/build.make redsquared0-tools/CMakeFiles/WorldGenerator.dir/build
 .PHONY : WorldGenerator/fast
 
 world_generator.o: world_generator.cpp.o
@@ -135,7 +135,7 @@ world_generator.o: world_generator.cpp.o
 
 # target to build an object file
 world_generator.cpp.o:
-	cd /workspaces/redsquared0-client/build && $(MAKE) $(MAKESILENT) -f redsquared0-tools/CMakeFiles/WorldGenerator.dir/build.make redsquared0-tools/CMakeFiles/WorldGenerator.dir/world_generator.cpp.o
+	cd /workspaces/redsquared0-client/build-gui && $(MAKE) $(MAKESILENT) -f redsquared0-tools/CMakeFiles/WorldGenerator.dir/build.make redsquared0-tools/CMakeFiles/WorldGenerator.dir/world_generator.cpp.o
 .PHONY : world_generator.cpp.o
 
 world_generator.i: world_generator.cpp.i
@@ -143,7 +143,7 @@ world_generator.i: world_generator.cpp.i
 
 # target to preprocess a source file
 world_generator.cpp.i:
-	cd /workspaces/redsquared0-client/build && $(MAKE) $(MAKESILENT) -f redsquared0-tools/CMakeFiles/WorldGenerator.dir/build.make redsquared0-tools/CMakeFiles/WorldGenerator.dir/world_generator.cpp.i
+	cd /workspaces/redsquared0-client/build-gui && $(MAKE) $(MAKESILENT) -f redsquared0-tools/CMakeFiles/WorldGenerator.dir/build.make redsquared0-tools/CMakeFiles/WorldGenerator.dir/world_generator.cpp.i
 .PHONY : world_generator.cpp.i
 
 world_generator.s: world_generator.cpp.s
@@ -151,7 +151,7 @@ world_generator.s: world_generator.cpp.s
 
 # target to generate assembly for a file
 world_generator.cpp.s:
-	cd /workspaces/redsquared0-client/build && $(MAKE) $(MAKESILENT) -f redsquared0-tools/CMakeFiles/WorldGenerator.dir/build.make redsquared0-tools/CMakeFiles/WorldGenerator.dir/world_generator.cpp.s
+	cd /workspaces/redsquared0-client/build-gui && $(MAKE) $(MAKESILENT) -f redsquared0-tools/CMakeFiles/WorldGenerator.dir/build.make redsquared0-tools/CMakeFiles/WorldGenerator.dir/world_generator.cpp.s
 .PHONY : world_generator.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /workspaces/redsquared0-client/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /workspaces/redsquared0-client/build-gui && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
